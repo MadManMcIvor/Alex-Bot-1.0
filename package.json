@@ -1,0 +1,28 @@
+{
+  "name": "portfolio_site_backend",
+  "version": "1.0.0",
+  "description": "API to interface portfolio site with ChatGPT",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/MadManMcIvor/portfolio_site_backend.git"
+  },
+  "author": "Alex McIvor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/MadManMcIvor/portfolio_site_backend/issues"
+  },
+  "homepage": "https://gitlab.com/MadManMcIvor/portfolio_site_backend#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
